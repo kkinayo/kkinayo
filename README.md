@@ -32,6 +32,7 @@ I write and tune T-SQL on MS SQL Server, build reports for business teams and ru
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**shared-income-bot**](https://github.com/kkinayo/shared-income-bot) | Telegram bot for shared income on a PostgreSQL ledger: exact money, DB constraints, race-safe payouts, monthly stats, CI with PostgreSQL integration tests | Python, aiogram, asyncpg, PostgreSQL, Docker, GitHub Actions |
 | [**bus_stops_finder**](https://github.com/kkinayo/bus_stops_finder) · [live demo](https://kkinayo.github.io/bus_stops_finder/) | 10K public transport stops of Saint Petersburg from OpenStreetMap on an interactive map, with nearest-stop search | Python, Overpass API, GeoJSON, Leaflet |
 | [**movie-recommender**](https://github.com/kkinayo/movie-recommender) | Semantic movie search over Russian reviews: embeddings + k-NN + lemmatized keyword exclusion | Sentence Transformers, scikit-learn, spaCy |
 | 🚧 **mini DWH** *(in progress)* | End-to-end warehouse on an e-commerce dataset: raw load → dbt star schema with tests → scheduled runs → BI dashboard | PostgreSQL, dbt, Airflow, Docker, Power BI |
